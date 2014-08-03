@@ -1,0 +1,16 @@
+.thump {
+	height: 100px;
+}
+
+.title {
+	font-weight: bold;
+}
+
+thead {
+	font-weight: bold;
+}
+
+table td {
+	border: 1px solid black;
+	margin: 0px;
+}
