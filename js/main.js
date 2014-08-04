@@ -9,6 +9,10 @@ $( document ).ready(function() {
 		$.each(data, function(index, val) {
 			var tr = document.createElement('tr');
 
+			if (val['sold'] == 'sold') return;
+
+			val['description'] = val['description'].replace(/(?:\r\n|\r|\n)/g, '<br />');
+
 			$(tr).append("<td class='description'><span class='title'>" + val['title'] + "</span> (" + val['owner'] + ")" + " <br/> " + val['description'] + "</td>");
 			$(tr).append("<td class='quantity'>" + val['quantity'] + "</td>");
 			$(tr).append("<td class='price'>" + formatCurrency(val['price']) + " (" + formatCurrency(val['retail']) + ")</td>");
