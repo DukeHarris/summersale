@@ -1,4 +1,9 @@
 $( document ).ready(function() {
+	function formatCurrency(val) {
+		if (!val) return "-";
+		return "$" + parseFloat(val, 10).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,').toString()
+	}
+
 	function displayData(data) {
 		var table = $("#stuff");
 		$.each(data, function(index, val) {
@@ -6,12 +11,14 @@ $( document ).ready(function() {
 
 			$(tr).append("<td class='description'><span class='title'>" + val['title'] + "</span> (" + val['owner'] + ")" + " <br/> " + val['description'] + "</td>");
 			$(tr).append("<td class='quantity'>" + val['quantity'] + "</td>");
-			$(tr).append("<td class='price'>$" + parseFloat(val['price'], 10).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,').toString() + " ($" + parseFloat(val['retail'], 10).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,').toString() + ")</td>");
+			$(tr).append("<td class='price'>" + formatCurrency(val['price']) + " (" + formatCurrency(val['retail']) + ")</td>");
 
 			var imgTd = document.createElement('td');
 
 			$.each(val['images'], function(i, img) {
-				$(imgTd).append("<a class='" + index + "' href='" + img + "' rel='shadowbox'><img class='thump' src='" + img +"'' /></a>");
+				if (img) {
+					$(imgTd).append("<a class='" + index + "' href='" + img + "' rel='shadowbox'><img class='thump' src='" + img +"'' /></a>");
+				}
 			});
 
 			$(tr).append(imgTd);

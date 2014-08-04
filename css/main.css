@@ -1,3 +1,11 @@
+body {
+	text-align: center;
+}
+
+#stuff {
+	margin: 10px auto;
+}
+
 .thump {
 	height: 100px;
 }
