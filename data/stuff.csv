@@ -1,70 +1,75 @@
-,title,owner,quantity,retail,price,description,images,urls
-,coffee machine,?,1,,,,,
-,2.1 speakers,A,1,,,,,
-,Basketball (incl. pump),A,1,,,,,
-,blender,A,1,,,,,
-,camping chairs,A,3,,,,,
-,Car,A,1,,,"Honda Accord 1999
-",,"http://www.amazon.com/gp/product/B002DW92IE
+,title,owner,quantity,retail,price,description,images,urls,sold
+,2.1 Speakers,A,1,30,15,,http://ecx.images-amazon.com/images/I/41uoDs8ylyL.jpg,http://www.amazon.com/gp/product/B0015C30J0,
+,Basketball (incl. pump),A,1,,5,,,,
+,blender,A,1,,20,,,,
+,camping chairs,A,3,12,5,,,,
+,Car,A,1,3500,,"Honda Accord 1999
+included: tape adapter, USB power adapter, smartphone windshield mount",,"http://www.amazon.com/gp/product/B002DW92IE
 http://www.amazon.com/gp/product/B006SU0SX0
-http://www.amazon.com/gp/product/B007CL0MS0"
-,chairs,A,4,,,,,
-,coffee tables (black),A,2,19.99,,,http://www.ikea.com/us/en/images/products/lack-coffee-table__57540_PE163122_S4.JPG,http://www.ikea.com/us/en/catalog/products/00095036/#/40104294
-,dining table,A,1,,,,,
-,food scale,A,1,,,,,
-,iron & board,A,1,,,,,"http://www.amazon.com/gp/product/B0053XMU3E
-http://www.amazon.com/gp/product/B0000TQGZO"
-,kitchenware,A,a lot,,,,,
-,klapptisch,A,3,,,,,
-,lawn chairs,A,3,,,,,
-,toaster,A,1,,,,,
-,TV,A,1,,,,,
-,Vacuum,A,1,,,,,
-,pull out sofa,A,1,,,,,http://www.amazon.com/gp/product/B005OHF65I
-,Office Chair,K,1,,,,,
-,ATSC Stick + Antenna,M,1,67.63,,"USB stick to receive over-the-air TV
-",http://ecx.images-amazon.com/images/I/41dqiGLbvDL.jpg,http://www.amazon.com/Hauppauge-1191-WinTV-HVR-950Q-Personal-Recorder/dp/B001DEYVXO
-,Headphones,M,,161.99,,DT 770 Pro 250ohm,http://ecx.images-amazon.com/images/I/71yAY4QEjJL._SL1500_.jpg,http://www.amazon.com/Beyerdynamic-770-PRO-250-ohms/dp/B0006NL5SM
-,mattress,M,1,199.99,,,http://www.ikea.com/us/en/images/products/sultan-hurva-spring-mattress__0146766_PE305776_S4.JPG,http://www.ikea.com/us/en/catalog/products/50219633/#/00219635
-,monitor,M,1,,,,http://ecx.images-amazon.com/images/I/81Qvsxp0nyL._SL1500_.jpg,http://www.amazon.com/gp/product/B0058UUR6E
-,night stand,M,1,,,,http://www.ikea.com/us/en/images/products/lack-side-table__22519_PE107398_S4.JPG,http://www.ikea.com/us/en/catalog/products/40104270/#/20011413
-,Office Chair,M,1,54.99,25,,http://ecx.images-amazon.com/images/I/61iIdbySbRL._SL1500_.jpg,http://www.amazon.com/gp/product/B004ZVHQZC/
-,Desktop PC,M,1,,,,,"http://www.amazon.com/gp/product/B00CO8TBOW/
+http://www.amazon.com/gp/product/B007CL0MS0",
+,chairs,A,4,,5,,,,
+,coffee tables (black),A,2,19.99,,,http://www.ikea.com/us/en/images/products/lack-coffee-table__57540_PE163122_S4.JPG,http://www.ikea.com/us/en/catalog/products/00095036/#/40104294,
+,dining table,A,1,,20,,,,
+,food scale,M,1,20.9,10,,,,
+,iron & board,A,1,60,25,,"http://ecx.images-amazon.com/images/I/61RQdN5juFL._SL1500_.jpg
+http://ecx.images-amazon.com/images/I/31XXe07AkTL._SY450_.jpg","http://www.amazon.com/gp/product/B0053XMU3E
+http://www.amazon.com/gp/product/B0000TQGZO",
+,kitchenware,A,a lot,,,"4 pans, 3 pots, a lot of silverware, plates, bowls, cooking utensils, cocktail shaker set, etc",,,
+,folding table,A,1,,8,,,,
+,lawn chairs,A,3,20,8,,,,
+,toaster,A,1,,8,,,,
+,TV,A,1,320,200,,,,
+,Vacuum,A,1,,10,,,,
+,pull out sofa,A,1,59.99,25,good for guests. 2 people can sleep on that comfortably,"http://ecx.images-amazon.com/images/I/41eGIIzu7OL.jpg
+http://ecx.images-amazon.com/images/I/71ZcO5adg%2BL._SL1500_.jpg",http://www.amazon.com/gp/product/B005OHF65I,
+,ATSC Stick + Antenna,M,1,67.63,25,"USB stick to receive over-the-air TV
+we received around 30 channels including NBC, FOX, CBS. Good for NFL",http://ecx.images-amazon.com/images/I/41dqiGLbvDL.jpg,http://www.amazon.com/Hauppauge-1191-WinTV-HVR-950Q-Personal-Recorder/dp/B001DEYVXO,
+,Headphones,M,,161.99,100,"DT 770 Pro 250ohm. Closed back, isolating (good for office use)",http://ecx.images-amazon.com/images/I/71yAY4QEjJL._SL1500_.jpg,http://www.amazon.com/Beyerdynamic-770-PRO-250-ohms/dp/B0006NL5SM,
+,mattress,M,1,199.99,100,,http://www.ikea.com/us/en/images/products/sultan-hurva-spring-mattress__0146766_PE305776_S4.JPG,http://www.ikea.com/us/en/catalog/products/50219633/#/00219635,
+,monitor,M,1,169.99,80,Asus VS248H-P 24-Inch Full-HD LED-lit LCD,http://ecx.images-amazon.com/images/I/81Qvsxp0nyL._SL1500_.jpg,http://www.amazon.com/gp/product/B0058UUR6E,sold
+,night stand,M,1,7.99,3,,http://www.ikea.com/us/en/images/products/lack-side-table__22519_PE107398_S4.JPG,http://www.ikea.com/us/en/catalog/products/40104270/#/20011413,
+,Office Chair,M,1,54.99,25,,http://ecx.images-amazon.com/images/I/61iIdbySbRL._SL1500_.jpg,http://www.amazon.com/gp/product/B004ZVHQZC/,
+,Desktop PC,M,1,950$,,Intel Core i5-4670K Quad 3.4 GHZ 6 MB Cache ++ 8GB RAM (2x4) DDR3 1600Mhz ++ 128GB SSD SATA 6Gb/s ++ Gigabyte GTX 760 ++ Gigabyte Z87 LGA 1150 ++ Cooler Master eXtreme Power Plus 500w Power Supply ++,"http://ecx.images-amazon.com/images/I/71AirmwbDqL._SL1500_.jpg
+http://ecx.images-amazon.com/images/I/81kavDJra5L._SL1500_.jpg
+http://ecx.images-amazon.com/images/I/71CwH-bLa7L._SL1500_.jpg","http://www.amazon.com/gp/product/B00CO8TBOW/
 http://www.amazon.com/gp/product/B00CU4L4XG/
 http://www.amazon.com/gp/product/B00CUSUV0O
 http://www.amazon.com/gp/product/B001G0WPLK
 http://www.amazon.com/gp/product/B004W2JKZI
 http://www.amazon.com/gp/product/B004CRSM4I
-http://www.amazon.com/gp/product/B00DGM8B6O"
-,speakers/amp/speaker cable,M,1,,,,"http://ecx.images-amazon.com/images/I/71YRsyzuMlL._SL1500_.jpg
+http://www.amazon.com/gp/product/B00DGM8B6O",sold
+,speakers/amp/speaker cable,M,1,70,30,good speakers for small rooms and small budget,"http://ecx.images-amazon.com/images/I/71YRsyzuMlL._SL1500_.jpg
 http://ecx.images-amazon.com/images/I/71Ifw0T69cL._SL1500_.jpg
 http://ecx.images-amazon.com/images/I/51DMvAzeMFL.jpg","http://www.amazon.com/gp/product/B0049P6OTI/
 http://www.amazon.com/gp/product/B0029HHIDY/
-http://www.amazon.com/gp/product/B000MCGF1O/"
-,swamp cooler,M,,,,,,
-,foot pump,M,1,,,http://www.amazon.com/gp/product/B001ANYRGE/,,
-, CAT5e ethernet cable 50ft,M,2,,,http://www.amazon.com/gp/product/B002HK5AW4,,
-,Over the door hook organizer,M,2,,,http://www.amazon.com/gp/product/B008EH6RJY,,
-,"Keyboard, Mouse",M,1,,,http://www.amazon.com/gp/product/B003ELVLKU/,,
-,5-port gigbit switch,M,1,,,http://www.amazon.com/gp/product/B000N99BBC,,
-,swimming kickboard,M,1,,,http://www.amazon.com/gp/product/B003X7CA1Y,,
-,clock radio with alarm,M,1,18.99,,http://www.amazon.com/gp/product/B000MXWSY6,,
-,hair dryer,M,1,,,http://www.amazon.com/gp/product/B00005O0MZ,,
-,Germany-USA power adapter,M,1,,,http://www.amazon.com/gp/product/B000WUB692,,
-,big lamp,MP,2,,,,,
-,Desk (white),MP,4,19.99,,"Size
-39 3/8x23 5/8in",http://www.ikea.com/us/en/images/products/linnmon-adils-table__0189130_PE343590_S4.JPG,http://www.ikea.com/us/en/catalog/products/S29932181/
-,hangers,MP,too many,,,,,
-,small lamp,MP,2,,,,,
-,5-Pack Ethernet Cable,P,1,,,http://www.amazon.com/gp/product/B00C2DL96W/,,
-,Bike,P,1,,,,,
-,Coffee Table (white),P,1,,,,,
-,"Gaming Laptop (Lenovo Y510p, with dual graphics)",P,1,,,http://shop.lenovo.com/us/en/laptops/lenovo/y-series/y510p/?sb=:000001C9:00011E0C:,,
-,Gigabit Switch,P,1,,,http://www.amazon.com/gp/product/B000N99BBC,,
-,"Keyboard, Mouse",P,1,,,http://www.amazon.com/gp/product/B007PJ4PN2/,http://www.amazon.com/gp/product/B003NR57BY/,
-,Laptop Stand,P,1,,,http://www.amazon.com/gp/product/B000JE7CMG/,,
-,"Mattress incl. linens, pillow, blanket etc",P,1,,,http://www.ikea.com/us/en/catalog/products/40197882/#/00197884,,
-,"Monitor (Acer, 24in)",P,1,,,http://www.amazon.com/gp/product/B0098Y77OG/,,
-,Office Chair,P,1,,,http://www.amazon.com/gp/product/B0046TR4IW/,,
-,organizer,M,1,6.99,3,"SKUBB
-Organizer with 6 compartments, white",http://www.ikea.com/us/en/images/products/skubb-organizer-with--compartments__0176173_PE329124_S4.JPG,http://www.ikea.com/us/en/catalog/products/80245876/#/00245880
+http://www.amazon.com/gp/product/B000MCGF1O/",
+,Evaporative Air Cooler,M,1,105.66,50,,http://ecx.images-amazon.com/images/I/41pcU4PIb%2BL.jpg,http://www.amazon.com/gp/product/B000R48G5K,
+,foot pump,M,1,10,5,free if you buy the pull out sofa,http://ecx.images-amazon.com/images/I/51xV%2BZ2rO6L.jpg,http://www.amazon.com/gp/product/B001ANYRGE/,
+, CAT5e ethernet cable 50ft,M,2,5,2,,http://ecx.images-amazon.com/images/I/415PBj6b9tL.jpg,http://www.amazon.com/gp/product/B002HK5AW4,
+,Over the door hook organizer,M,2,10,5,,http://ecx.images-amazon.com/images/I/51%2BS62bSzlL._SL1500_.jpg,http://www.amazon.com/gp/product/B008EH6RJY,
+,"Keyboard, Mouse",M,1,60,30,,http://ecx.images-amazon.com/images/I/31vBYZCkVCL.jpg,"http://www.amazon.com/gp/product/B003ELVLKU/
+http://www.amazon.com/gp/product/B008OQTQSO",sold
+,5-port gigbit switch,M,1,20,10,,http://ecx.images-amazon.com/images/I/31QRVoL0DNL.jpg,http://www.amazon.com/gp/product/B000N99BBC,
+,swimming kickboard,M,1,24,8,,http://ecx.images-amazon.com/images/I/61x%2BKXTUzML._UX522_.jpg,http://www.amazon.com/gp/product/B003X7CA1Y,
+,clock radio with alarm,M,1,18.99,10,,http://ecx.images-amazon.com/images/I/71mGkKsP1wS._SL1500_.jpg,http://www.amazon.com/gp/product/B000MXWSY6,
+,hair dryer,M,1,10,5,,http://ecx.images-amazon.com/images/I/71l5XUeVAqL._SL1500_.jpg,http://www.amazon.com/gp/product/B00005O0MZ,
+,Germany-USA power adapter,M,1,6,2,,http://ecx.images-amazon.com/images/I/2195-tW77yL.jpg,http://www.amazon.com/gp/product/B000WUB692,
+,big lamp,M,1,,10,,,,
+,Desk (white),MP,4,19.99,8,"Size
+39 3/8x23 5/8in",http://www.ikea.com/us/en/images/products/linnmon-adils-table__0189130_PE343590_S4.JPG,http://www.ikea.com/us/en/catalog/products/S29932181/,
+,hangers,M,too many,,6,,,,
+,small lamp,M,1,,5,,,,
+,5-Pack Ethernet Cable,P,1,12.99,5,(free if you buy the laptop),http://ecx.images-amazon.com/images/I/71Fo-ak5TBL._SL1500_.jpg,http://www.amazon.com/gp/product/B00C2DL96W/,
+,Bike,P,1,299.99,190,incl. lock and helmet,,,
+,Coffee Table (white),P,1,19.99,10,,http://www.ikea.com/us/en/images/products/lack-coffee-table__49406_PE145331_S4.JPG,http://www.ikea.com/us/en/catalog/products/00095036/#/00095036,
+,"Gaming Laptop (Lenovo Y510p, with dual graphics)",P,1,1299,700,dual nvidia graphics,http://www.lenovo.com/images/gallery/1060x596/lenovo-laptop-ideapad-y510p-front-1.jpg,http://shop.lenovo.com/us/en/laptops/lenovo/y-series/y510p/?sb=:000001C9:00011E0C:,
+,Gigabit Switch,P,1,18.99,8,(free if you buy the laptop),http://ecx.images-amazon.com/images/I/31QRVoL0DNL.jpg,http://www.amazon.com/gp/product/B000N99BBC,
+,Keyboard,P,1,20.99,10,(free if you buy the laptop),http://ecx.images-amazon.com/images/I/811aHIgqynL._SL1500_.jpg,http://www.amazon.com/gp/product/B007PJ4PN2/,
+,Laptop Stand,P,1,21.85,10,(free if you buy the laptop),http://ecx.images-amazon.com/images/I/51RIyde64gL.jpg,http://www.amazon.com/gp/product/B000JE7CMG/,
+,"Mattress incl. linens, pillow, blanket etc",P,1,280,130,"incl. 2 pillows, comforter and linens",http://www.ikea.com/us/en/images/products/sultan-hanestad-active-response-coil-mattress__0124338_PE280831_S4.JPG,http://www.ikea.com/us/en/catalog/products/40197882/#/00197884,
+,"Monitor (Acer, 24in)",P,1,138.99,70,,http://ecx.images-amazon.com/images/I/61FWyg5JilL._SL1500_.jpg,http://www.amazon.com/gp/product/B0098Y77OG/,
+,Office Chair,P,1,75.56,30,,http://ecx.images-amazon.com/images/I/61nb2cQHOfL._SL1500_.jpg,http://www.amazon.com/gp/product/B0046TR4IW/,
+,organizer,MP,2,6.99,3,"SKUBB
+Organizer with 6 compartments, white",http://www.ikea.com/us/en/images/products/skubb-organizer-with--compartments__0176173_PE329124_S4.JPG,http://www.ikea.com/us/en/catalog/products/80245876/#/00245880,
+,Monitor stand,M,1,19.32,10,,http://ecx.images-amazon.com/images/I/61ytmfgaOrL._SL1500_.jpg,http://www.amazon.com/gp/product/B00006HO37,
+,power outlets,MP,many,,5,,,,
