@@ -1,12 +1,7 @@
 $( document ).ready(function() {
-
-	$.getJSON( "/stuff.json", null, function( data, Status, xhr ){
-
+	function displayData(data) {
 		var table = $("#stuff");
-		var random = 0;
 		$.each(data, function(index, val) {
-
-			var random = Math.floor((Math.random() * 100000000) + 1);
 			var tr = document.createElement('tr');
 
 			$(tr).append("<td class='description'><span class='title'>" + val['title'] + "</span> (" + val['owner'] + ")" + " <br/> " + val['description'] + "</td>");
@@ -15,27 +10,45 @@ $( document ).ready(function() {
 
 			var imgTd = document.createElement('td');
 
-			$.each(val['images'], function(index, img) {
-				$(imgTd).append("<a class='" + random + "' href='" + img + "' rel='shadowbox'><img class='thump' src='" + img +"'' /></a>");
+			$.each(val['images'], function(i, img) {
+				$(imgTd).append("<a class='" + index + "' href='" + img + "' rel='shadowbox'><img class='thump' src='" + img +"'' /></a>");
 			});
 
 			$(tr).append(imgTd);
 			table.append(tr);
-			Shadowbox.setup("a."+random, {
+			Shadowbox.setup("a."+index, {
 				gallery: val['title']
 			});
 
 			var linksTd = document.createElement('td');
-			$.each(val['urls'], function(index, url) {
-				$(linksTd).append("<a href='" + url + "'>[" + (index+1) + "]</a>")
+			$.each(val['urls'], function(i, url) {
+				$(linksTd).append("<a href='" + url + "'>[" + (i+1) + "]</a>")
 			});
 
 			$(tr).append(linksTd);
 
 		});
 
+	}
+
+	$.ajax("data/stuff.csv", {
+		success: function(data) {
+			var rowArrays = Papa.parse(data).data;
+			console.log(rowArrays);
+			var rowObjects = [];
+			var fields = rowArrays[0];
+			for (var i = 1; i < rowArrays.length; ++i) {
+				var obj = {};
+				for (var j = 1; j < fields.length; ++j) {
+					obj[fields[j]] = rowArrays[i][j];
+
+					if (fields[j] == "urls" || fields[j] == "images") {
+						obj[fields[j]] = obj[fields[j]].split("\n");
+					}
+				}
+				rowObjects.push(obj);
+			}
+			displayData(rowObjects);
+		}
 	});
-
-
-
 });
