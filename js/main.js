@@ -29,7 +29,9 @@ $( document ).ready(function() {
 
 			var linksTd = document.createElement('td');
 			$.each(val['urls'], function(i, url) {
-				$(linksTd).append("<a href='" + url + "'>[" + (i+1) + "]</a>")
+				if (url) {
+					$(linksTd).append("<a href='" + url + "'>[" + (i+1) + "]</a>");
+				}
 			});
 
 			$(tr).append(linksTd);
