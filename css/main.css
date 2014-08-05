@@ -2,6 +2,10 @@ body {
 	text-align: center;
 }
 
+a {
+	font-weight: bold;
+}
+
 #stuff {
 	margin: 10px auto;
 }

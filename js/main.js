@@ -18,20 +18,21 @@ $( document ).ready(function() {
 			var title = val['title'];
 			var owner = val['owner'];
 
+			title = "<span class='title'>" + title + "</span>";
 			if (owner) {
 				title += ' (' + owner + ')';
 			}
 			if (urls) {
 				var links = [];
 				$.each(urls, function(i, url) {
-					links.push('<a href="' + url + '">Link ' + (i+1) + '</a>');
+					links.push('<a href="' + url + '">[' + (i+1) + ']</a>');
 				})
-				title += ' (' + links.join(', ') + ')'	;
+				title += ' ' + links.join(' ');
 			}
 
 
 
-			$(tr).append("<td class='description'><span class='title'>" + title + "</span> (" + val['owner'] + ")" + " <br/> " + description + "</td>");
+			$(tr).append("<td class='description'>" + title + "<br/>" + description + "</td>");
 			$(tr).append("<td class='quantity'>" + val['quantity'] + "</td>");
 			$(tr).append("<td class='price'>" + formatCurrency(val['price']) + " (" + formatCurrency(val['retail']) + ")</td>");
 
