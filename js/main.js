@@ -9,11 +9,29 @@ $( document ).ready(function() {
 		$.each(data, function(index, val) {
 			var tr = document.createElement('tr');
 
+			// dont display items already sold
 			if (val['sold'] == 'sold') return;
 
-			val['description'] = val['description'].replace(/(?:\r\n|\r|\n)/g, '<br />');
+			// Replace new linews in description with break-lines
+			var description = val['description'].replace(/(?:\r\n|\r|\n)/g, '<br />');
+			var urls = val['urls'];
+			var title = val['title'];
+			var owner = val['owner'];
 
-			$(tr).append("<td class='description'><span class='title'>" + val['title'] + "</span> (" + val['owner'] + ")" + " <br/> " + val['description'] + "</td>");
+			if (owner) {
+				title += ' (' + owner + ')';
+			}
+			if (urls) {
+				var links = [];
+				$.each(urls, function(i, url) {
+					links.push('<a href="' + url + '">Link ' + (i+1) + '</a>');
+				})
+				title += ' (' + links.join(', ') + ')'	;
+			}
+
+
+
+			$(tr).append("<td class='description'><span class='title'>" + title + "</span> (" + val['owner'] + ")" + " <br/> " + description + "</td>");
 			$(tr).append("<td class='quantity'>" + val['quantity'] + "</td>");
 			$(tr).append("<td class='price'>" + formatCurrency(val['price']) + " (" + formatCurrency(val['retail']) + ")</td>");
 
@@ -31,15 +49,6 @@ $( document ).ready(function() {
 				gallery: val['title']
 			});
 
-			var linksTd = document.createElement('td');
-			$.each(val['urls'], function(i, url) {
-				if (url) {
-					$(linksTd).append("<a href='" + url + "'>[" + (i+1) + "]</a>");
-				}
-			});
-
-			$(tr).append(linksTd);
-
 		});
 
 	}
@@ -47,7 +56,6 @@ $( document ).ready(function() {
 	$.ajax("data/stuff.csv", {
 		success: function(data) {
 			var rowArrays = Papa.parse(data).data;
-			console.log(rowArrays);
 			var rowObjects = [];
 			var fields = rowArrays[0];
 			for (var i = 1; i < rowArrays.length; ++i) {
