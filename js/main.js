@@ -25,7 +25,7 @@ $( document ).ready(function() {
 			if (urls) {
 				var links = [];
 				$.each(urls, function(i, url) {
-					links.push('<a href="' + url + '">[' + (i+1) + ']</a>');
+					links.push('<a href="' + url + '" target="_blank">[' + (i+1) + ']</a>');
 				})
 				title += ' ' + links.join(' ');
 			}
