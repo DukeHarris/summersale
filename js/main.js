@@ -10,7 +10,7 @@ $( document ).ready(function() {
 			var tr = document.createElement('tr');
 
 			// dont display items already sold
-			if (val['sold'] == 'sold') return;
+			if (val['sold'] != '') return;
 
 			// Replace new linews in description with break-lines
 			var description = val['description'].replace(/(?:\r\n|\r|\n)/g, '<br />');
