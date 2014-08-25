@@ -56,7 +56,7 @@ $( document ).ready(function() {
 
 	}
 
-	$.ajax("data/stuff.csv", {
+	$.ajax("data/sale.csv", {
 		success: function(data) {
 			var rowArrays = Papa.parse(data).data;
 			var rowObjects = [];
